@@ -2,7 +2,7 @@
 
 ---
 
-[##_Image|kage@bNqdUE/btsC33FX57u/jKhe1jnIlPwZ7v4UPgpmN1/img.png|CDM|1.3|{"originWidth":873,"originHeight":512,"style":"alignCenter","width":604,"height":354}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNqdUE%2FbtsC33FX57u%2FjKhe1jnIlPwZ7v4UPgpmN1%2Fimg.png){width=604 height=354}
 
 A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 "우리 회사는 6대의 WAS를 가지고 있습니다!!" 라고 했습니다. A군은 "WAS가 뭐지? Web Application Server? 내가 알고있는 Apache와 같은 웹서버와는 다른건가?" 라는 생각이 들었습니다. 이번에는 WAS가 무엇인지에 대해서 알아보는 시간을 가지겠습니다.
 
