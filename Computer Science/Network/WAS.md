@@ -14,7 +14,7 @@ A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 
 
 ---
 
-[##_Image|kage@cAIKjH/btsC4upNv4N/C1YwiV3kEiyAoNArywboWk/img.png|CDM|1.3|{"originWidth":800,"originHeight":800,"style":"alignCenter","width":310,"height":310}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcAIKjH%2FbtsC4upNv4N%2FC1YwiV3kEiyAoNArywboWk%2Fimg.png)
 
 웹(Web)은 인터넷을 기반으로 정보를 공유하고 검색할 수 있는 서비스이다.  웹을 통해 우리는 전 세계적으로 다양한 정보에 접근할 수 있으며, 이를 위해 다양한 기술과 프로토콜이 사용된다. 예시로, URL, HTTP, HTML이 존재한다.
 
@@ -30,7 +30,8 @@ A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 
 
 ---
 
-[##_Image|kage@bEmYaL/btsC4D1gs8K/EfisiQOzZu6ZEeyZJT2UbK/img.webp|CDM|1.3|{"originWidth":328,"originHeight":204,"style":"alignCenter","width":404,"height":251}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbEmYaL%2FbtsC4D1gs8K%2FEfisiQOzZu6ZEeyZJT2UbK%2Fimg.webp)
+
 
 서버(Server)는 클라이언트(일반적으로 웹 브라우저)로부터 요청을 받아들이고, 해당 요청에 대한 정보나 서비스를 제공하는 컴퓨터 시스템이다.
 
@@ -38,7 +39,8 @@ A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 
 
 ---
 
-[##_Image|kage@ejC0Vv/btsDavAG51j/5hPcDiyAmGGrX0krcHQP3K/img.png|CDM|1.3|{"originWidth":796,"originHeight":260,"style":"alignCenter","width":784,"height":256}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FejC0Vv%2FbtsDavAG51j%2F5hPcDiyAmGGrX0krcHQP3K%2Fimg.png)
+
 
 그렇다면, Web + Server인 웹 서버(Web Server)는 무엇일까?
 
@@ -50,13 +52,15 @@ A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 
 
 ---
 
-[##_Image|kage@wtbjU/btsC9l59OY8/ylshRiErLSN5Rzu8AaTV21/img.png|CDM|1.3|{"originWidth":800,"originHeight":275,"style":"alignCenter","width":783,"height":269}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwtbjU%2FbtsC9l59OY8%2FylshRiErLSN5Rzu8AaTV21%2Fimg.png)
+
 
 이 때, 등장한 것이 **WAS**(Web Application Server)로, 웹 애플리케이션을 실행하기 위한 서버를 가리킨다.  WAS는 웹 애플리케이션을 실행하는 데 필요한 환경을 제공하고, 동작시키는 기능을 제공하는 소프트웨어 프레임워크이다. 웹 어플리케이션을 실행시켜 필요한 기능을 수행하고 그 결과를 웹 서버에 전달하는 미들웨어 역할을 한다. 
 
 WAS는 프로그램 실행환경, DB접속 기능 등을 제공하고 비즈니스 로직을 수행할 수 있다. 웹 서버의 기능과 웹 컨테이너의 기능을 더했다고 볼 수 있다. 웹 서버와 웹 컨테이너는 함께 작동하여 웹 애플리케이션을 완성하고 사용자에게 제공하는 데 기여한다. **정적 콘텐츠**는 웹 서버에서 처리되고, **동적 콘텐츠**는 웹 컨테이너에서 처리되어 웹 애플리케이션의 전체 기능이 제공된다.
 
-[##_Image|kage@dzHpIK/btsC6U9V2UK/WKSTaKi1j8KbdbKrgMQRUk/img.png|CDM|1.3|{"originWidth":1071,"originHeight":280,"style":"alignCenter","width":757,"height":198}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdzHpIK%2FbtsC6U9V2UK%2FWKSTaKi1j8KbdbKrgMQRUk%2Fimg.png)
+
 
 **웹 컨테이너** : 웹 컨테이너는 웹 서버에서 동적인 콘텐츠를 생성하고 실행하기 위한 환경을 제공한다. Java 기반에서는 JSP나 Servlet과 같은 서버 사이드 스크립트를 실행하고 이를 처리한다. 또한, 데이터베이스 연결, 비즈니스 로직 실행, 세션 관리 등을 수행한다. Java계열에서는 웹 애플리케이션 컨테이너라고도 부른다. tomcat, ibm websphere, jeus 등이 존재한다. 
 
@@ -64,7 +68,8 @@ WAS는 프로그램 실행환경, DB접속 기능 등을 제공하고 비즈니�
 
 ---
 
-[##_Image|kage@Tzig4/btsC6pbkU68/pkVlg6JI637EFN1ldG01k0/img.jpg|CDM|1.3|{"originWidth":500,"originHeight":522,"style":"alignCenter","width":404,"height":422}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FTzig4%2FbtsC6pbkU68%2FpkVlg6JI637EFN1ldG01k0%2Fimg.jpg)
+
 
 **여러 WAS**를 사용하는 경우에는 웹 서버나 다른 시스템들과 조합하여 웹 애플리케이션의 가용성, 성능, 보안 등을 향상시킨다.
 
@@ -79,14 +84,16 @@ WAS는 프로그램 실행환경, DB접속 기능 등을 제공하고 비즈니�
 
 여러 WAS를 사용하는 다양한 방법이 있다. 여기에는 로드 밸런싱과 역방향 프록시의 사용이 포함 된다.
 
-[##_Image|kage@naT9R/btsC4xgmOpB/C3D4TbsopS1MIkzs9tnOBk/img.jpg|CDM|1.3|{"originWidth":640,"originHeight":400,"style":"alignCenter"}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnaT9R%2FbtsC4xgmOpB%2FC3D4TbsopS1MIkzs9tnOBk%2Fimg.jpg)
+
 
 #### 로드 밸런싱 (Load Balancing)
 
 여러 대의 WAS를 사용할 때, 클라이언트의 요청을 균등하게 분산하여 각 WAS 서버에 부하를 분산시키는 것이 중요하다. 이를 위해 로드 밸런서(load balancer)를 사용할 수 있다.  
 로드 밸런서는 클라이언트의 요청을 여러 WAS 인스턴스로 분배함으로써 부하를 균형 있게 분산시킨다. 이는 각 WAS 서버에 골고루 부하를 분산하여 성능을 최적화하고, 가용성을 높이는데 도움이 된다.
 
-[##_Image|kage@Ka2Kj/btsC53zj0e2/QxiFACxvOiQuf6TR8yony0/img.png|CDM|1.3|{"originWidth":1392,"originHeight":563,"style":"alignCenter","width":786,"height":318}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKa2Kj%2FbtsC53zj0e2%2FQxiFACxvOiQuf6TR8yony0%2Fimg.png)
+
 
 #### 역방향 프록시 (Reverse Proxy)
 
@@ -107,6 +114,7 @@ WAS는 프로그램 실행환경, DB접속 기능 등을 제공하고 비즈니�
 
 ---
 
-[##_Image|kage@6yBaP/btsDfN85sqv/NDlonAPA1rCWnWjxkITklk/img.png|CDM|1.3|{"originWidth":180,"originHeight":180,"style":"alignCenter","width":272,"height":272}_##]
+![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6yBaP%2FbtsDfN85sqv%2FNDlonAPA1rCWnWjxkITklk%2Fimg.png)
+
 
 이처럼, "우리 회사는 6대의 WAS를 가지고 있습니다"라는 문장은 회사가 웹 애플리케이션 운영을 위해 여러 대의 WAS를 사용하고 있음을 의미하며, 이는 서비스의 가용성, 확장성, 성능 향상을 목적으로 노력하고 있다고 이해하면 될 것 같다.
