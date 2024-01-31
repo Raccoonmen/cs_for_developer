@@ -14,8 +14,7 @@ A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 
 
 ---
 
-![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcAIKjH%2FbtsC4upNv4N%2FC1YwiV3kEiyAoNArywboWk%2Fimg.png)
-
+![이미지 설명](https://disenowebakus.net/en/images/articles/difference-between-internet-and-web-www-services.jpg)
 
 
 웹(Web)은 인터넷을 기반으로 정보를 공유하고 검색할 수 있는 서비스이다.  웹을 통해 우리는 전 세계적으로 다양한 정보에 접근할 수 있으며, 이를 위해 다양한 기술과 프로토콜이 사용된다. 예시로, URL, HTTP, HTML이 존재한다.
