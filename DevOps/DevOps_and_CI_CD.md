@@ -2,7 +2,8 @@
 
 ---
 
-[##_Image|kage@dAfwKs/btsEcapjO0k/jkK3OSe3CtV1FoskuimZ00/img.jpg|CDM|1.3|{"originWidth":235,"originHeight":214,"style":"alignCenter","width":284,"height":259}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdAfwKs%2FbtsEcapjO0k%2FjkK3OSe3CtV1FoskuimZ00%2Fimg.jpg)
+
 
 이전의 포스팅에서 빌드 및 개발과 같은 내용에 대해서 정리를 했었습니다.
 
@@ -14,11 +15,13 @@
 
 ---
 
-[##_Image|kage@o5iRp/btsEdDLxd2L/rVJOFRyuYSK9bKMmxuiXWK/img.png|CDM|1.3|{"originWidth":805,"originHeight":531,"style":"alignCenter","width":544,"height":359}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fo5iRp%2FbtsEdDLxd2L%2FrVJOFRyuYSK9bKMmxuiXWK%2Fimg.png)
+
 
 CI/CD에 들어가기 전에 **DevOps**라는 개념에 대해서 알아보고자 합니다. DevOps는 Development + Operations의 줄임말으로, 소프트웨어 개발과 운영 팀 간의 협력, 개발과 배포 프로세스의 자동화, 지속적인 피드백과 지속적인 개선을 강조하는 문화와 철학을 나타냅니다. 주요 목표는 효율적이고 안정적인 소프트웨어 배포를 가능케하고, 협업을 강화해서 생산성과 서비스 안정성을 향상시키는 것입니다.
 
-[##_Image|kage@llfFh/btsEaXxs9Vk/KtLUSzB3gl1GHItu7vUNr0/img.jpg|CDM|1.3|{"originWidth":750,"originHeight":500,"style":"alignCenter","width":429,"height":286}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FllfFh%2FbtsEaXxs9Vk%2FKtLUSzB3gl1GHItu7vUNr0%2Fimg.jpg)
+
 
 이러한 DevOps 문화는 2009년 'O'Relly Velocity Conference의 <하루에 10회 이상 배포하기: Filcker에서 Dev와 Ops의 협업>'에서 탄생했습니다
 
@@ -28,7 +31,8 @@ CI/CD에 들어가기 전에 **DevOps**라는 개념에 대해서 알아보고�
 
 ---
 
-[##_Image|kage@etMRQU/btsD8xeOrq1/nRSklvD0iLq6Kek7Sv0k00/img.png|CDM|1.3|{"originWidth":704,"originHeight":358,"style":"alignCenter","width":549,"height":279}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FetMRQU%2FbtsD8xeOrq1%2FnRSklvD0iLq6Kek7Sv0k00%2Fimg.png)
+
 
 **CI(Continuous Integration)는 지속적 통합**이라는 의미를 가지고 있습니다. 개발자를 위한 자동화 프로세스인 지속적 통합으로 모든 개발이 끝난 이후에 코드 품질을 관리하는 고전적인 단점을 해소하기 위해 나타난 개념입니다. 코드 변경 사항이 정기적으로 빌드 및 테스트되어 (가능하면 매시간 또는 매일) 공유 리포지토리에 통합되는 과정을 통해 지속적으로 품질을 유지하면서 개발을 진행하는 방법입니다.
 
@@ -50,7 +54,8 @@ CI는 CI서버를 통해서 위의 과정처럼 Git으로 관리되는 코드의
 
 ---
 
-[##_Image|kage@ckKMvX/btsEaOOaNER/VNrmhoLGEuZxxqucPxukrk/img.webp|CDM|1.3|{"originWidth":1024,"originHeight":473,"style":"alignCenter","width":687,"height":317}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FckKMvX%2FbtsEaOOaNER%2FVNrmhoLGEuZxxqucPxukrk%2Fimg.webp)
+
 
 CD(Continuous Deployment,지속적 배포 )는 CI의 확장 개념으로, 소프트웨어가 항상 신뢰할 수 있는 수준에서 배포될 수 있도록 관리하자는 개념으로 지속적 제공(Continuous Delivery)로 사용되기도 합니다.
 
@@ -60,12 +65,14 @@ CI는 소스코드의 빌드와 테스트 병합까지 성공적으로 진행되
 
 ---
 
-[##_Image|kage@bin0E9/btsD8xMFBv2/fxr84415WwdtCHt6vzMo00/img.png|CDM|1.3|{"originWidth":1280,"originHeight":390,"style":"alignCenter","width":791,"height":241}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbin0E9%2FbtsD8xMFBv2%2Ffxr84415WwdtCHt6vzMo00%2Fimg.png)
+
 
 Continuous Deployment(CD)와 Continuous Integration(CI)는 밀접한 관련이 있습니다. CI는 개발자들이 작성한 코드를 지속적으로 통합하여 빌드 및 테스트를 수행하는 것을 강조하는데, 이는 개발자들이 빈번한 코드 통합을 통해 코드 품질을 유지하고 안정적으로 동작하는지 확인할 수 있도록 돕습니다.
 
 이를 통해 CI가 선행되어야 CD가 가능하다고 볼 수 있습니다. CI를 통해 소프트웨어의 품질이 유지되면서 신뢰성이 확보되기 때문에, CD를 통해 이러한 안정적인 소프트웨어를 지속적으로 프로덕션 환경에 배포할 수 있게 됩니다. 따라서 CI/CD라는 용어는 이 두 개념이 함께 작동하여 릴리스 주기를 단축하고 소프트웨어를 신속하게 제공할 수 있게 해주는 방법을 나타냅니다.
 
-[##_Image|kage@HhUul/btsD4RY8xFa/KAVz1SXJk8zrW9eADl1Sy0/img.png|CDM|1.3|{"originWidth":632,"originHeight":462,"style":"alignCenter","width":466,"height":341}_##]
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHhUul%2FbtsD4RY8xFa%2FKAVz1SXJk8zrW9eADl1Sy0%2Fimg.png)
+
 
 널리 사용되는 CI/CD 도구 중 하나인 Jenkins는 중앙 빌드 및 지속적인 통합 프로세스가 가능하며, Windows, macOS 및 기타 Unix 계열 운영 체제용 패키지가 포함된 독립형 Java 기반 프로그램입니다. 수백개의 플러그인을 사용할 수 있는 Jenkins는 소프트웨어 개발에서 CI를 구현하고, 빌드, 테스트, 배포 등의 자동화된 작업들을 지원하는 동시에 CD 파이프라인을 구축할 수 있는 강력한 플랫폼입니다.
