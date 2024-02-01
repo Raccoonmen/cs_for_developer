@@ -1,14 +1,12 @@
 ## 서론
 
----
 
 ![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNqdUE%2FbtsC33FX57u%2FjKhe1jnIlPwZ7v4UPgpmN1%2Fimg.png)
 
 A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 "우리 회사는 6대의 WAS를 가지고 있습니다!!" 라고 했습니다. A군은 "WAS가 뭐지? Web Application Server? 내가 알고있는 Apache와 같은 웹서버와는 다른건가?" 라는 생각이 들었습니다. 이번에는 WAS가 무엇인지에 대해서 알아보는 시간을 가지겠습니다.
-
+<br></br>
+<br></br>
 ## Web, Server, Web Server
-
----
 
 ### Web
 
@@ -48,10 +46,10 @@ A군이 회사에 들어가게 되었습니다. 상사는 신입사원들에게 
 **인터넷을 기반**으로 클라이언트에게 **웹 서비스를 제공**하는 컴퓨터 시스템을 의미한다. 클라이언트에서는 웹 서버에 URL과 HTTP에 맞는 요청을 하면, 서버는 요청을 기다리고, 웹 요청(Request = "HTTP, CSS, JS 파일을 줄래?")에 대한 데이터를 만들어서 응답(Response = "요청한 파일")을 해준다. 요청 데이터는 웹에서 처리할 수 있는 html,css,js,이미지 같은 정적인 데이터를 주게된다. Apache, Nginx, Microsoft IIS 등이 웹 서버의 예시이다. 아파치같은 웹 서버를 이용해서 우리의 개인 컴퓨터로도 간단한 웹서버를 만들 수 있다.
 
 이러한 과정에서 html은 프로그래밍 언어가 아니므로 DB에서 데이터를 가져온다던가..라는 동작을 할 수 없었다. 또한 html, css,js와 같은 정적 데이터만 줄 수 있었기에, 동적 컨텐츠를 다룰 수 없었다. 뭔가 다른 프로그램으로 해치울 수 있는 방법이 있지 않을까.. 라는 생각이 점점 들기 시작했다.
-
+<br></br>
+<br></br>
 ## WAS(Web Application Server)
 
----
 
 ![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwtbjU%2FbtsC9l59OY8%2FylshRiErLSN5Rzu8AaTV21%2Fimg.png)
 
@@ -110,10 +108,9 @@ WAS는 프로그램 실행환경, DB접속 기능 등을 제공하고 비즈니�
 정방향 프록시와 역방향 프록시의 주요 차이점은 네트워크 아키텍처에서의 위치다. 정방향 프록시는 클라이언트와 인터넷 사이에 위치하며 역방향 프록시는 클라이언트와 서버 사이에 위치한다.  
   
 또 다른 주요 차이점은 목적이다. 순방향 프록시는 주로 클라이언트에 개인정보를 제공하고 네트워크 제한을 우회하는 데 사용된다. 반면 역방향 프록시는 주로 서버의 성능, 보안, 확장성을 향상시키는 데 사용된다.
-
+<br></br>
+<br></br>
 ## 간단한 정리
-
----
 
 ![이미지 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6yBaP%2FbtsDfN85sqv%2FNDlonAPA1rCWnWjxkITklk%2Fimg.png)
 
