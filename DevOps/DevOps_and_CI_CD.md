@@ -1,7 +1,5 @@
 ## 0\. 개요
 
----
-
 ![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdAfwKs%2FbtsEcapjO0k%2FjkK3OSe3CtV1FoskuimZ00%2Fimg.jpg)
 
 
@@ -10,10 +8,9 @@
 하지만 개발자가 수백,수천~ 그이상의 사용자가 사용하는 수천건의 로그가 발생하는 서비스를 주시하면서 서버가 꺼지면 켜주고, 일일히 파일을 올려서 배포해주고 등등의 작업을 해야한다면 잘시간도 없이 24시간 근무를 해야할 겁니다.
 
 이를 위해서 우리는 테스트, 빌드, 배포, 로그 등등의 과정을 자동화를 통해서 서버를 관리해주어야 합니다. 이를위해서 CI/CD에 대해서 제가 아는 지식들을 적어보는 시간을 가져보겠습니다.
-
+<br></br>
 ## 1\. DevOps
 
----
 
 ![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fo5iRp%2FbtsEdDLxd2L%2FrVJOFRyuYSK9bKMmxuiXWK%2Fimg.png)
 
@@ -26,10 +23,9 @@ CI/CD에 들어가기 전에 **DevOps**라는 개념에 대해서 알아보고�
 이러한 DevOps 문화는 2009년 'O'Relly Velocity Conference의 <하루에 10회 이상 배포하기: Filcker에서 Dev와 Ops의 협업>'에서 탄생했습니다
 
 이러한 DevOps 문화가 생긴 이후 **CI/CD**라는 개념이 부각되었습니다. 조직들의 가장 큰 과제 중 하나는 시장 변화 및 고객 요구에 신속하고 유연하게 대응할 수 있는 개발안을 구축하는 것입니다. 이러한 문제에 대한 중추적인 솔루션인 Agile 문화와 DevOps의 한 부분으로써 CI/CD개념이 출현한 것 입니다. CI/CD는 빠르고 효율적이고 지속적으로 개발하기위한 DevOps 문화의 핵심적인 원칙을 구현하는 수단으로 나타냅니다.
-
+<br></br>
 ## 2\. CI(Continuous Integration)
 
----
 
 ![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FetMRQU%2FbtsD8xeOrq1%2FnRSklvD0iLq6Kek7Sv0k00%2Fimg.png)
 
@@ -49,10 +45,8 @@ CI/CD에 들어가기 전에 **DevOps**라는 개념에 대해서 알아보고�
 CI는 CI서버를 통해서 위의 과정처럼 Git으로 관리되는 코드의 변경을 감지하고 자동으로 빌드와 테스트를 실행해줍니다.
 
 만약 CI가 없다면 저러한 프로세스를 일일해 해주어야 할 것입니다. CI는 개발자에게 실시간으로 피드백을 실시간, 지속적으로 제공함으로써 개발자들은 품질을 확인하고 문제를 해결할 수 있습니다. 이를 통해 개발자들은 저 안정적인 환경에서 코드를 작성하고, 버그를 조기발견해서 소프트웨어의 품질을 향상시킬 수 있습니다.
-
+<br></br>
 ## 3\. CD(Continuous Deployment/Deilvery)
-
----
 
 ![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FckKMvX%2FbtsEaOOaNER%2FVNrmhoLGEuZxxqucPxukrk%2Fimg.webp)
 
@@ -60,10 +54,9 @@ CI는 CI서버를 통해서 위의 과정처럼 Git으로 관리되는 코드의
 CD(Continuous Deployment,지속적 배포 )는 CI의 확장 개념으로, 소프트웨어가 항상 신뢰할 수 있는 수준에서 배포될 수 있도록 관리하자는 개념으로 지속적 제공(Continuous Delivery)로 사용되기도 합니다.
 
 CI는 소스코드의 빌드와 테스트 병합까지 성공적으로 진행되었다면, 빌드와 테스트를 거쳐 github에 올라간 것을 의미합니다. CD는 성공적으로 병합된 내역을 저장소 뿐이 아니라 사용자가 사용할 수 있는 배포환경까지 릴리즈 하는 것을 의미합니다. 이는 소프트웨어를 빠르게 고객에게 제공하고 신속한 피드백을 통해 지속적인 개선을 가능하게 합니다.
-
+<br></br>
 ## 4\. CI vs CD
 
----
 
 ![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbin0E9%2FbtsD8xMFBv2%2Ffxr84415WwdtCHt6vzMo00%2Fimg.png)
 
