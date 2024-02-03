@@ -104,12 +104,6 @@ docker run -d -p 80:80 docker/getting-started
 
 [https://docs.docker.com/compose/install/standalone/](https://docs.docker.com/compose/install/standalone/)
 
- [Install Compose standalone
-
-How to install Docker Compose - Other Scenarios
-
-docs.docker.com](https://docs.docker.com/compose/install/standalone/)
-
 해당 문서에서 docker-compose를 설치하는 방법을 알려주고 있습니다.
 
 ```
